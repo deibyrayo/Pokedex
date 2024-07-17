@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   //Check if the Pokémon ID is valid, if not, redirect to the main page ⬇️
   if (id < 1 || id > MAX_POKEMONS) {
-    return (window.location.href = "./index.html");
+    return (window.location.href = "/index.html");
   }
 
   currentPokemonId = id;
@@ -56,7 +56,7 @@ async function loadPokemon(id) {
         });
       }
 
-      window.history.pushState({}, "", `./detail.html?id=${id}`);
+      window.history.pushState({}, "", `/pages/detail.html?id=${id}`);
     }
 
     return true;
