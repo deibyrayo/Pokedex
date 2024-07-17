@@ -7,6 +7,7 @@ const notFoundMessage = document.querySelector("#not-found-message");
 
 let allPokemons = [];
 
+//connection to pokeapi ⬇️
 fetch(`https://pokeapi.co/api/v2/pokemon?limit=${MAX_POKEMON}`)
   .then((response) => response.json())
   .then((data) => {
@@ -14,6 +15,7 @@ fetch(`https://pokeapi.co/api/v2/pokemon?limit=${MAX_POKEMON}`)
     displayPokemons(allPokemons);
   });
 
+//promise to have pokemons when i upload them ⬇️
 async function fetchPokemonDataBeforeRedirect(id) {
   try {
     const [pokemon, pokemonSpecies] = await Promise.all([
@@ -30,6 +32,7 @@ async function fetchPokemonDataBeforeRedirect(id) {
   }
 }
 
+//display pokemons in html with js ⬇️
 function displayPokemons(pokemon) {
   listWrapper.innerHTML = "";
 
@@ -60,8 +63,10 @@ function displayPokemons(pokemon) {
   });
 }
 
+//listen to finder keyboard event ⬇️
 searchInput.addEventListener("keyup", handleSearch);
 
+// search by name or number (radio button) ⬇️
 function handleSearch() {
   const searchTerm = searchInput.value.toLowerCase();
   let filteredPokemons;
@@ -88,9 +93,11 @@ function handleSearch() {
   }
 }
 
+// listen to click event on clear search ⬇️
 const closeButton = document.querySelector(".search-close-icon");
 closeButton.addEventListener("click", clearSearch);
 
+// clear search engine with x icon ⬇️
 function clearSearch() {
   searchInput.value = "";
   displayPokemons(allPokemons);
