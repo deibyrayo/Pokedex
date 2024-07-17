@@ -1,4 +1,4 @@
-const MAX_POKEMON = 151;
+const MAX_POKEMON = 500;
 const listWrapper = document.querySelector(".list-wrapper");
 const searchInput = document.querySelector("#search-input");
 const numberFilter = document.querySelector("#number");
@@ -45,7 +45,7 @@ function displayPokemons(pokemon) {
             <p class="caption-fonts">#${pokemonID}</p>
         </div>
         <div class="img-wrap">
-            <img src="http://raw.githubusercontent.com/pokeapi/sprites/master/sprites/pokemon/other/dream-world/${pokemonID}.svg" alt="${pokemon.name}" />
+            <img loading="lazy" src="http://raw.githubusercontent.com/pokeapi/sprites/master/sprites/pokemon/other/dream-world/${pokemonID}.svg" alt="${pokemon.name}" />
         </div>
         <div class="name-wrap">
             <p class="body3-fonts">#${pokemon.name}</p>

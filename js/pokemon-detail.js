@@ -2,7 +2,7 @@ let currentPokemonId = null;
 
 // Event that is executed when the DOM content has been fully loaded ⬇️
 document.addEventListener("DOMContentLoaded", () => {
-  const MAX_POKEMONS = 151;
+  const MAX_POKEMONS = 500;
   const pokemonID = new URLSearchParams(window.location.search).get("id");
   const id = parseInt(pokemonID, 10);
 
@@ -50,7 +50,7 @@ async function loadPokemon(id) {
           navigatePokemon(id - 1);
         });
       }
-      if (id !== 151) {
+      if (id !== 500) {
         rightArrow.addEventListener("click", () => {
           navigatePokemon(id + 1);
         });
