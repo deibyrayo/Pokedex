@@ -16,6 +16,7 @@ The Pokédex is a web application made with **Html, Css and JavaScript** that al
 ## Screenshots
 
 ![Pokedex Screenshot](./img/responsive.jpeg)
+![Pokedex Screenshot](./img/detail.jpeg)
 
 ## Technologies Used
 
