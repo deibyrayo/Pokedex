@@ -2,50 +2,50 @@
 
 ![Pokedex](./img/desktop.jpeg)
 
-## Descripción
+## Description
 
-La Pokédex es una aplicación web hecha con **Html, Css y JavaScript** que permite a buscar y ver información sobre Pokémons utilizando la PokeAPI. Esta aplicación muestra los **151 Pokémon originales** de la región de Kanto, y **349 más**, con una interfaz intuitiva y fácil de usar.
+The Pokédex is a web application made with **Html, Css and JavaScript** that allows you to search and view information about Pokémon using the PokeAPI. This application displays the **original 151 Pokémon** from the Kanto region, and **349 more**, with an intuitive and easy-to-use interface.
 
-## Características
+## Features
 
-- **Búsqueda Rápida:** Busca cualquier Pokémon por nombre o número en tiempo real.
-- **Interfaz de Usuario Dinámica:** Una UI limpia y atractiva para una experiencia de usuario agradable.
-- **Información Detallada:** Muestra detalles específicos de cada Pokémon, incluyendo sus habilidades, estadísticas y tipos.
-- **Navegación Intuitiva:** Fácil navegación entre los diferentes Pokémon.
+- **Quick Search:** Search for any Pokémon by name or number in real time.
+- **Dynamic User Interface:** A clean and attractive UI for a pleasant user experience.
+- **Detailed Information:** Displays specific details about each Pokémon, including its abilities, stats and types.
+- **Intuitive Navigation:** Easy navigation between the different Pokémon.
 
-## Capturas de Pantalla
+## Screenshots
 
 ![Pokedex Screenshot](./img/responsive.jpeg)
 
-## Tecnologías Utilizadas
+## Technologies Used
 
-- **HTML5** y **CSS3**: Estructura y estilo de la página.
-- **JavaScript (ES6+)**: Lógica del lado del cliente.
-- **PokeAPI**: API externa para obtener datos sobre Pokémon.
-- **Git**: Control de versiones.
-- **GitHub**: Almacenamiento del código fuente.
+- **HTML5** and **CSS3**: Page structure and styling.
+- **JavaScript (ES6+)**: Client-side logic.
+- **PokeAPI**: External API to get data about Pokémon.
+- **Git**: Version control.
+- **GitHub**: Source code storage.
 
-## Instalación
+## Installation
 
-1. **Clona el repositorio:**
-   ```sh
-   git clone https://github.com/tu_usuario/pokedex.git
-   ```
-2. **Navega al directorio del proyecto:**
-   ```sh
-   cd pokedex
-   ```
-3. **Abre el archivo index.html en tu navegador:**
-   ```sh
-   open index.html
-   ```
-## Uso
+1. **Clone the repository:**
+```sh
+git clone https://github.com/your_user/pokedex.git
+```
+2. **Navigate to the project directory:**
+```sh
+cd pokedex
+```
+3. **Open the index.html file in your browser:**
+```sh
+open index.html
+```
+## Usage
 
-- Buscar Pokémon: Escribe el nombre o número del Pokémon en la barra de búsqueda para encontrarlo rápidamente.
-- Ver Detalles: Haz clic en cualquier Pokémon para ver detalles más específicos sobre él.
-- Navegar Entre Pokémon: Usa las flechas de navegación para moverte entre los diferentes Pokémon.
+- Search for Pokémon: Type the Pokémon's name or number into the search bar to quickly find it.
+- View Details: Click on any Pokémon to see more specific details about it.
+- Navigate Between Pokémon: Use the navigation arrows to move between different Pokémon.
 
-## Créditos
+## Credits
 
-<https://pokeapi.co>
-<https://github.com/PokeAPI/sprites>
+- <https://pokeapi.co>
+- <https://github.com/PokeAPI/sprites>
