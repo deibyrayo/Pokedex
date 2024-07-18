@@ -4,7 +4,7 @@
 
 ## Description
 
-The Pokédex is a web application made with **Html, Css and JavaScript** that allows you to search and view information about Pokémon using the PokeAPI. This application displays the **original 151 Pokémon** from the Kanto region, and **349 more**, with an intuitive and easy-to-use interface.
+The Pokédex is a web application made with **Html, Css and JavaScript** that allows you to search and view information about Pokémon using the **PokeAPI**. This application displays the **original 151 Pokémon** from the Kanto region, and **349 more**, with an intuitive and easy-to-use interface.
 
 ## Features
 
