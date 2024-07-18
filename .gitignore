@@ -1,0 +1,19 @@
+# Ignorar archivos de sistema de macOS
+.DS_Store
+
+# Ignorar archivos de sistema de Windows
+Thumbs.db
+desktop.ini
+
+# Ignorar archivos de configuración de editores
+.idea/
+.vscode/
+*.swp
+
+# Ignorar archivos de log y de entorno
+*.log
+.env
+
+# Ignorar directorios de dependencias
+node_modules/
+vendor/
